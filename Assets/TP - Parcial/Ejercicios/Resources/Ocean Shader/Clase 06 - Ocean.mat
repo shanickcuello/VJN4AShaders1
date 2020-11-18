@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clase 06 - Ocean
+  m_Shader: {fileID: 4800000, guid: b31e2d32457856c4cbd41ec3040f8b76, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MicroNormalMap:
+        m_Texture: {fileID: 2800000, guid: 9995ced1ceddd1c43b5bd1311da3db78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalDistortion:
+        m_Texture: {fileID: 2800000, guid: ffd205f3aed07b94d92c2b5d32d3e50f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Skybox:
+        m_Texture: {fileID: 8900000, guid: 8ac6331dd1f46cc4ca57d30fa96d7042, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: ffd205f3aed07b94d92c2b5d32d3e50f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Amplitude: 0.16
+    - _CrestOpacity: 0.583
+    - _EmissiveIntensity: 0.407577
+    - _Float0: 3
+    - _Float1: 0.44
+    - _MainOpacity: 1
+    - _MicroNormalScale: 0.37
+    - _MicroNormalTiling: 9
+    - _NearOpacity: 0.672
+    - _NumberofWaves: 24
+    - _Scale: 0.01
+    - _ShallowWaterOffsetIntensity: 0.204
+    - _ShallowWaterOpacity: 0.59
+    - _Smoothness: 0.934869
+    - _SpecularIntensity: 0.09411765
+    - _Speed: 1.35
+    - _Steepness: 0.135
+    - _TessValue: 32
+    - _VertexNormalIntensity: 0.993
+    - _Wavelenght: 3.91
+    - __dirty: 0
+    m_Colors:
+    - _CrestColor: {r: 0.16862746, g: 0.57254905, b: 0.5647059, a: 0}
+    - _Direction1: {r: -0.18743853, g: 0, b: 0.9822763, a: 0}
+    - _Direction2: {r: 0.17000768, g: 0, b: -0.98544276, a: 0}
+    - _Direction3: {r: -0.9979939, g: 0, b: -0.063310266, a: 0}
+    - _Direction4: {r: -0.8457006, g: 0, b: -0.5336579, a: 0}
+    - _MicroNormalSpeed: {r: -0.14, g: 0, b: 0, a: 0}
+    - _Vector0: {r: -0.05, g: 0, b: 0, a: 0}
+    - _WaveColor: {r: 0, g: 0.062038552, b: 0.103773594, a: 0}

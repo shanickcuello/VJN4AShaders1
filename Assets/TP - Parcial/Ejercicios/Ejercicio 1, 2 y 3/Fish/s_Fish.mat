@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: s_Fish
+  m_Shader: {fileID: 4800000, guid: 800196179349bcd4784d1c4e394562ad, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 3dff5d532d2a7564b926496ff66de545, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Pattern:
+        m_Texture: {fileID: 2800000, guid: ba0caa9df1b77b743b33e0e16966b5c4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: ba0caa9df1b77b743b33e0e16966b5c4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2:
+        m_Texture: {fileID: 2800000, guid: ba0caa9df1b77b743b33e0e16966b5c4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _CircleSpeed1: -1
+    - _CircleSpeed2: -2
+    - _FallOff: 1.08
+    - _FallOff1: 1
+    - _FallOff2: 3.52
+    - _Float0: 1
+    - _Float1: -2
+    - _Float2: 1
+    - _Float3: 3.52
+    - _Frecuency1: 10
+    - _Frecuency2: 1
+    - _Lenght: 1000
+    - _LineWidth: 0.08
+    - _LinesAmount: 1
+    - _MaskController: 1.47
+    - _MovementIntensity: 0.63
+    - _NumberMovement: 6
+    - _Radio1: 11.79
+    - _Radio2: 1
+    - _Radius: 11.23
+    - _Speed: 2
+    - _SpeedScan: 3
+    - __dirty: 0
+    m_Colors:
+    - _Color2: {r: 3.350784, g: 2.09424, b: 0, a: 0}
+    - _LinesColor: {r: 0, g: 0.93419576, b: 0.9128427, a: 0}
